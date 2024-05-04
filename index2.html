@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div>
+        <form action="efetivar.html">
+            <h2>FORMULÁRIO DE INSCRIÇÃO</h2> 
+            <h3>Preencha seus dados</h3>
+
+            <label for="name">Nome</label> <br>
+            <input type="text" placeholder="Seu nome" id="nome" required>
+            
+            <br><br>
+            
+            <label for="data">Digite sua data de nascimento</label> <br>
+            <input type="date" name="date" id="email" required>
+
+            <br><br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" placeholder="abcd@gmail.com" required>
+            
+            <br><br>
+
+            <label for="number">Número</label> <br>
+            <input type="number" name="numero" id="num" placeholder="Seu número de telefone" required>
+
+            <br><br>
+            
+            <label for="">Você mora sozinho?</label> <br>
+            <label for="check">Sim</label>
+            <input type="radio" name="check" id="check">
+            <label for="check">Não</label>
+            <input type="radio" name="check" id="check">
+
+            <br><br>
+            <label for="lugar">Onde você mora?</label> <br>
+                <select name="Cidade" multiple required>
+
+
+                    <optgroup label="Brasília">
+                    <option value="an">Asa norte</option>
+                    <option value="as">Asa sul</option>
+                    </optgroup>
+        
+                    <optgroup label="Rio de Janeiro">
+                    <option value="rc">Rocinha</option>
+                    <option value="ct">Centro</option>
+                    </optgroup>
+        
+                    <optgroup label="São Paulo">
+                    <option value="zl">Zona Leste</option>
+                    <option value="zs">Zona Sul</option>
+                    </optgroup>
+        
+            </select>
+<br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

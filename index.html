@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMFG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <img src="UMFG 2.jpg" alt="UMFG">
+    <form action="efetivar.html" method="post">
+        <h2>Área de cadastro</h2> <br>
+        <label for="nome">Nome: </label> <br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+
+        <input type="submit" class="t4">
+<br>
+        <input type="checkbox" name="contrato" id="contrato" value="sim" required>
+        <label class="check" for="contrato">Eu aceito os termos de contrato</label>
+<br> <br>
+        <div class="ms"> 
+            <h4>Qual sua idade?</h4>
+
+            <input type="radio" name="idade" id="idade5" value="5">
+            <label for="idade5"> Menos de 5 anos </label>
+<br>
+            <input type="radio" name="idade" id="idade10" value="10">
+            <label for="idade10"> Menos de 10 anos </label>
+<br>        
+            <input type="radio" name="idade" id="idade15" value="15">
+            <label for="idade15"> Menos de 15 anos </label>
+<br>
+            <input type="radio" name="idade" id="idade20" value="20">
+            <label for="idade20"> Menos de 20 anos </label>
+<br>     
+        </div>
+        <br>
+        <input type="date" name="data" required>  
+<br> <br>
+        <select name="Cidade" multiple>
+
+            <optgroup label="Brasília">
+            <option value="an">Asa norte</option>
+            <option value="as">Asa sul</option>
+            </optgroup>
+
+            <optgroup label="Rio de Janeiro">
+            <option value="rc">Rocinha</option>
+            <option value="ct">Centro</option>
+            </optgroup>
+
+            <optgroup label="São Paulo">
+            <option value="zl">Zona Leste</option>
+            <option value="zs">Zona Sul</option>
+            </optgroup>
+
+        </select>
+        <br> <br>
+        <button type="reset">Limpar</button>
+    </form>
+    
+</body>
+</html>
